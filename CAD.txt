@@ -1,0 +1,3 @@
+##----- Capacity Availability Document -----##
+LEBL,10
+LEPA,10
