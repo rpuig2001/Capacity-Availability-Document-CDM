@@ -41,9 +41,133 @@ LEVX,7
 LEVT,10
 LEVD,3
 LEZG,8
+#--- LPXX ---#
+LPMA,8
+LPFR,15
+LPPT,20
+LPPR,14
 #--- EKXX ---#
 EKCH,35
 EKBI,20
 EKYT,20
 #--- EDXX ---#
 EDDB,50
+EDDC,20
+EDDF,60
+EDDG,20
+EDDH,31
+EDDK,31
+EDDL,33
+EDDM,58
+EDDN,20
+EDDP,28
+EDDR,12
+EDDS,35
+EDDV,40
+EDDW,18
+EDJA,21
+#--- LGXX ---#
+LGAV,22
+LGIR,10
+LGKO,6
+LGKR,8
+LGMK,5
+LGSR,6
+LGTS,10
+#--- LHXX ---#
+LHBP,30
+#--- EIXX ---#
+EICK,12
+EIDW,30
+#--- LLXX ---#
+LLBG,18
+#--- LIXX ---#
+LIBD,11
+LICC,12
+LICJ,10
+LIMC,40
+LIME,14
+LIMF,15
+LIML,20
+LIPE,12
+LIPZ,19
+LIRF,54
+LIRN,15
+#--- ESXX ---#
+ESSA,42
+#--- LSXX ---#
+LSGG,25
+LSZH,40
+#--- LTXX ---#
+LTAC,20
+LTAI,30
+LTBA,5
+LTBJ,15
+LTBS,12
+LTFJ,24
+LTFM,55
+#--- UKXX ---#
+UKBB,48
+#--- EVXX ---#
+EVRA,29
+#--- EYXX ---#
+EYVI,20
+#--- ELXX ---#
+ELLX,20
+#--- LMXX ---#
+LMML,15
+#--- EHXX ---#
+EHAM,68
+#--- LWXX ---#
+LWSK,20
+#--- ENXX ---#
+ENGM,40
+#--- EPXX ---#
+EPKK,17
+EPKT,15
+EPPO,20
+EPSY,6
+EPWA,26
+EPWR,6
+#--- LYXX ---#
+LYBE,15
+#--- LZXX ---#
+LZIB,20
+#--- LJXX ---#
+LJLJ,10
+#--- EGXX ---#
+EGBB,20
+EGCC,33
+EGGP,15
+EGGW,20
+EGKK,36
+EGLC,25
+EGLL,46
+EGSS,
+#--- EBXX ---#
+EBBR,48
+#--- LQXX ---#
+LQSA,7
+#--- LBXX ---#
+LBSF,11
+#--- LCXX ---#
+LCLK,12
+#--- LKXX ---#
+LKPR,33
+#--- EEXX ---#
+EETN,10
+#--- EFXX ---#
+EFHK,48
+#--- LFXX ---#
+LFBO,17
+LFLL,12
+LFMN,30
+LFPG,36
+LFPO,38
+#--- UGXX ---#
+UGTB,40
+UBBB,20
+#--- LOWW ---#
+LOWW,48
+#--- LAXX ---#
+LATI,13
