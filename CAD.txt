@@ -143,7 +143,6 @@ EGGW,20
 EGKK,36
 EGLC,25
 EGLL,46
-EGSS,
 #--- EBXX ---#
 EBBR,48
 #--- LQXX ---#
