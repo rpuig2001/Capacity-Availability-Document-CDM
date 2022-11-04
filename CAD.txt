@@ -1,5 +1,5 @@
 ##----- Capacity Availability Document -----##
-#--- Spain LEXX & GCXX ---#
+#--- Spain [LEXX & GCXX] ---#
 URL,https://archivos.vatsimspain.es/Operaciones/CAD_Spain.txt
 #--- LPXX ---#
 LPMA,8
