@@ -1,46 +1,6 @@
 ##----- Capacity Availability Document -----##
-#--- GCXX ---#
-GCRR,14
-GCFV,14
-GCLP,25
-GCTS,21
-GCXO,15
-GCLA,8
-GCHI,4
-#--- LEXX ---#
-LEAL,19
-LEBL,38
-LEIB,16
-LEMH,12
-LEPA,33
-LEVC,20
-LEGE,12
-LERS,12
-LEMI,6
-LEDA,3
-LESU,3
-LECH,3
-LEMG,25
-LEBB,14
-LEMD,48
-LESO,3
-LEGR,7
-LECO,6
-LEAM,7
-LEAS,8
-LEPP,5
-LEXJ,8
-LEZL,15
-LEJR,8
-LEBZ,2
-GEML,6
-LEBA,3
-LEST,12
-LESA,2
-LEVX,7
-LEVT,10
-LEVD,3
-LEZG,8
+#--- Spain LEXX & GCXX ---#
+URL,https://archivos.vatsimspain.es/Operaciones/CAD_Spain.txt
 #--- LPXX ---#
 LPMA,8
 LPFR,15
