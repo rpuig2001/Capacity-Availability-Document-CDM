@@ -2,10 +2,7 @@
 #--- Spain [LEXX & GCXX] ---#
 URL,https://archivos.vatsimspain.es/Operaciones/CAD_Spain.txt
 #--- LPXX ---#
-LPMA,8
-LPFR,15
-LPPT,20
-LPPR,14
+URL,https://raw.githubusercontent.com/pinatacolada/topskylppc/master/LPPC/Plugins/ACDM/CAD/CAD_Portugal.txt
 #--- EKXX ---#
 EKCH,30
 EKBI,20
