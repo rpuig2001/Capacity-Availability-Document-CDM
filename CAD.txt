@@ -78,7 +78,7 @@ EHAM,68
 #--- LWXX ---#
 LWSK,20
 #--- ENXX ---#
-ENGM,40
+URL,https://adbj.no/cdm/CAD.txt
 #--- EPXX ---#
 EPKK,17
 EPKT,15
