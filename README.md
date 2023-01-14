@@ -14,6 +14,7 @@ Create an Issue with your .txt file URL.
 
   - Format `` [ICAO AIRPORT],[RATE/H] `` ex. `` LEPA,33 ``.
   - Each line has an airport with it's value.
+  - It is possible to create groups of airports with a wildcard on the last 2 digits of the ICAO. ex. (All Germany) -> `` ED**,10 ``.
   - Use `` # `` as the first character for a comment.
   - Avoid empty lines.
   
