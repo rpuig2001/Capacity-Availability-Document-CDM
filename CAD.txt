@@ -1,6 +1,6 @@
 ##----- Capacity Availability Document -----##
 #--- Spain [LEXX & GCXX] ---#
-URL,https://archivos.vatsimspain.es/Operaciones/CAD_Spain.txt
+URL,https://archivos.vatsimspain.es/Operaciones/Plugins/CDM_data/CAD_Spain.txt
 #--- Portugal [LPXX] ---#
 URL,https://raw.githubusercontent.com/pinatacolada/topskylppc/master/LPPC/Plugins/ACDM/CAD/CAD_Portugal.txt
 #--- EKXX ---#
