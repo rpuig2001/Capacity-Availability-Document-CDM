@@ -53,8 +53,7 @@ LIRN,15
 #--- ESXX ---#
 ESSA,42
 #--- LSXX ---#
-LSGG,25
-LSZH,40
+URL,https://cdm.vacc.ch/mdi.txt
 #--- LTXX ---#
 LTAC,20
 LTAI,30
