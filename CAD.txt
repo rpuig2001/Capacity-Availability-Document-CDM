@@ -75,7 +75,7 @@ LIRQ,10
 #--- ESXX ---#
 ESSA,42
 #--- LSXX ---#
-URL,https://cdm.vacc.ch/mdi.txt
+URL,https://cdm.vacc.ch/CAD.txt
 #--- LTXX ---#
 LTAC,20
 LTAI,30
