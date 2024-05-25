@@ -47,7 +47,7 @@ LGST,2
 LGTS,12
 LGZA,5
 #--- LHXX ---#
-LHBP,30
+URL,https://bbence.hu/CDM/CAD.txt
 #--- EIXX ---#
 EICK,12
 EIDW,30
