@@ -24,7 +24,7 @@ airspaces.geojson:
   - To disable airspaces, it is possible by setting capcity `` 999 ``.
   - MinFL, MaxFL and capacity are a must to have correctly defined airspaces.
   - Lateral limits should be defined as Multipolygon (Like Vatspy data).
-  - To check data by vertical limits, the following website is created (Data from the main branch is used): url tbd
+  - To check data by vertical limits, the following website is created (Data from the main branch is used): [AIRSPACES-MAP](https://cdm.vatsimspain.es/airspaces-map.html)
 
   
   **Please, check examples already submitted before send the request.**
