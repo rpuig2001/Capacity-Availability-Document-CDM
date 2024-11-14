@@ -89,13 +89,13 @@ ESSV,17
 #--- LSXX ---#
 URL,https://cdm.vacc.ch/CAD.txt
 #--- LTXX ---#
-LTAC,20
+LTAC,22
 LTAI,30
 LTBA,5
-LTBJ,15
+LTBJ,25
 LTBS,12
 LTFJ,24
-LTFM,55
+LTFM,60
 #--- UKXX ---#
 UKBB,48
 #--- EVXX ---#
