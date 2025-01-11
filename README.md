@@ -21,6 +21,8 @@ CAD.txt:
 airspaces.geojson:
   - Exceptions:
     - In case it is required to add volumes with the same name to consider the same sector. It is possible by using airspaceID followed by a ``/`` -> `` name/1 name/2 name/3``.
+  - Capacity: capacity is the "maximum simultaneous acft for each airspace". If we don't have this information we can do: ( `` max acft per hour `` x `` average airspace time `` ) / `` 60 ``.
+    - Example: max capacity 30 p/h, average airspace time 15min (meaning aircrafts stay an average of 15min in the airspace): (30x15)/60 = 7.
   - To disable airspaces, it is possible by setting capcity `` 999 ``.
   - MinFL, MaxFL and capacity are a must to have correctly defined airspaces.
   - Lateral limits should be defined as Multipolygon (Like Vatspy data).
