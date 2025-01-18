@@ -18,15 +18,17 @@ CAD.txt:
   - Use `` # `` as the first character for a comment.
   - Avoid empty lines.
 
-airspaces.geojson:
-  - Exceptions:
-    - In case it is required to add volumes with the same name to consider the same sector. It is possible by using airspaceID followed by a ``/`` -> `` name/1 name/2 name/3``.
-  - Capacity: capacity is the "maximum simultaneous acft for each airspace" known as "Peak". If we don't have this information we can do: ( `` max acft per hour `` x `` average airspace time `` ) / `` 60 ``.
-    - Example: max capacity 30 p/h, average airspace time 15min (meaning aircrafts stay an average of 15min in the airspace): (30x15)/60 = 7.
-  - To disable airspaces, it is possible by setting capcity `` 999 ``.
+volumes.geojson:
+  - Here volumes are included to later use them as sectors. To pass the vatglasses data into the required form, it is possible by using this converter: [VATGLASSES-CDM-CONVERTER](https://cdm.vatsimspain.es/vatglasses-cdm-converter.html)
+  - As SIDs and STARs are not considered, therefore, for better planning sectors should start at or above FL145 (If sectors are around departure/arrival ariports).
   - MinFL, MaxFL and capacity are a must to have correctly defined airspaces.
   - Lateral limits should be defined as Multipolygon (Like Vatspy data).
   - To check data by vertical limits, the following website is created (Data from the main branch is used): [AIRSPACES-MAP](https://cdm.vatsimspain.es/airspaces-map.html)
+sectors.txt
+  - Format `` <SECTOR Name>:<CAPACITY>:<Volumes> `` example: `` LECB-CCC:12:LECB-CCU1,LECB-CCU2,LECB-CCL1,LECB-CCL2 ``.
+  -  Capacity: capacity is the "maximum simultaneous acft for each airspace" known as "Peak". If we don't have this information we can do: ( `` max acft per hour `` x `` average airspace time `` ) / `` 60 ``.
+    - Example: max capacity 30 p/h, average airspace time 15min (meaning aircrafts stay an average of 15min in the airspace): (30x15)/60 = 7.
+  - To "disable" airspaces, it is possible by setting capcity `` 999 ``.
 
   
   **Please, check examples already submitted before send the request.**
