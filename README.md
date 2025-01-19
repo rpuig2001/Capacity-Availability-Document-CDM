@@ -19,7 +19,7 @@ CAD.txt:
   - Avoid empty lines.
 
 volumes.geojson:
-  - Here volumes are included to later use them as sectors. To pass the vatglasses data into the required form, it is possible by using this converter: [VATGLASSES-CDM-CONVERTER](https://cdm.vatsimspain.es/vatglasses-cdm-converter.html)
+  - Here volumes are included to later use them as sectors. To pass the vatglasses data into the required form, it is possible by using this converter: [VATGLASSES-CDM-CONVERTER](https://cdm.vatsimspain.es/vatglasses-to-cdm)
   - As SIDs and STARs are not considered, therefore, for better planning sectors should not be defined below at FL145 (If sectors are around departure/arrival ariports) and/or APP sectors not recommended to be included.
   - MinFL, MaxFL and capacity are a must to have correctly defined airspaces.
   - Lateral limits should be defined as Multipolygon (Like Vatspy data).
