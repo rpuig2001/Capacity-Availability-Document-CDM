@@ -124,24 +124,7 @@ LZIB,20
 #--- LJXX ---#
 LJLJ,10
 #--- EGXX ---#
-EGBB,20
-EGCC,33
-EGFF,20
-EGGD,20
-EGGP,30
-EGGW,20
-EGHH,10
-EGHI,12
-EGJB,15
-EGJJ,20
-EGKK,26
-EGLC,20
-EGLL,46
-EGNX,15
-EGPD,10
-EGPF,15
-EGPH,20
-EGSS,28
+URL,https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/UK/Data/Plugin/CDM/CAD.txt
 #--- EBXX ---#
 EBBR,48
 #--- LQXX ---#
