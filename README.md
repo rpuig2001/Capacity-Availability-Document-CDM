@@ -31,10 +31,10 @@ sectors.txt
   - To "disable" airspaces, it is possible by setting capcity `` 999 ``.
 
 sidStarDistances.txt
-  - Format `` <AIRPORT Icao>:<SID Distance>:<STAR Distance> `` example: `` LEBL:65:75 ``.
-  - This declares the average distance between the Airport and First/Last Waypoint (Of course not all SIDs have a different distance to the first waypoint, therefore an average value should be set):
-      - SID Distance: Average distance Airport-FirstWaypoint.
-      - STAR Distance: Average distance LastWaypoint-Airport.
+  - Format `` <AIRPORT Icao>:<SID Distance Difference>:<STAR Distance Difference> `` example: `` LEBL:7:15 ``.
+  - This declares the average **extra** distance between the Airport and First/Last Waypoint (difference from straight line to the SID/STAR procedure).
+      - SID Distance: Average **extra** distance Airport-FirstWaypoint.
+      - STAR Distance: Average **extra** distance LastWaypoint-Airport.
 
   
   **Please, check examples already submitted before send the request.**
