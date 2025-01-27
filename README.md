@@ -30,5 +30,11 @@ sectors.txt
     - Example: max capacity 30 p/h, average airspace time 15min (meaning aircrafts stay an average of 15min in the airspace): (30x15)/60 = 7.
   - To "disable" airspaces, it is possible by setting capcity `` 999 ``.
 
+sidStarDistances.txt
+  - Format `` <AIRPORT Icao>:<SID Distance>:<STAR Distance> `` example: `` LEBL:65:75 ``.
+  - This declares the average distance between the Airport and First/Last Waypoint (Of course not all SIDs have a different distance to the first waypoint, therefore an average value should be set):
+      - SID Distance: Average distance Airport-FirstWaypoint.
+      - STAR Distance: Average distance LastWaypoint-Airport.
+
   
   **Please, check examples already submitted before send the request.**
