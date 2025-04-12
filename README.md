@@ -31,6 +31,15 @@ sectors.txt
     - Example: max capacity 30 p/h, average airspace time 15min (meaning aircrafts stay an average of 15min in the airspace): (30x15)/60 = 7.
   - To "disable" airspaces, it is possible by setting capcity `` 999 ``.
 
+procedures.txt
+  - Format ``<AIRPORT>:SID:<letters>:STAR:<letters>`` example: ``LEBL:SID:Q:STAR:W,Z``
+    - AIRPORT: ICAO code.
+    - letters: last letter of CID, set all the valid letters. Empty if all are valid.
+  - The decision of which procedure to choose will be:
+    - If pilot filed SID/STAR is in the valid list, then it will selected.
+    - If pilot does not file a SID/STAR, the first in the list is chosen (order is by given in letters).
+  - If any can be selected, then direct path will be created.
+
 sidStarDistances.txt
   - Format `` <AIRPORT Icao>:<SID Distance Difference>:<STAR Distance Difference> `` example: `` LEBL:7:15 ``.
   - This declares the average **extra** distance between the Airport and First/Last Waypoint (difference from straight line to the SID/STAR procedure).
