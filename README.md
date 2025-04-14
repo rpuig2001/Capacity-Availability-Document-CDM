@@ -40,11 +40,5 @@ procedures.txt
     - If pilot does not file a SID/STAR, the first in the list is chosen (order is by given in letters).
   - If any can be selected, then direct path will be created.
 
-sidStarDistances.txt
-  - Format `` <AIRPORT Icao>:<SID Distance Difference>:<STAR Distance Difference> `` example: `` LEBL:7:15 ``.
-  - This declares the average **extra** distance between the Airport and First/Last Waypoint (difference from straight line to the SID/STAR procedure).
-      - SID Distance: Average **extra** distance Airport-FirstWaypoint.
-      - STAR Distance: Average **extra** distance LastWaypoint-Airport.
-
   
   **Please, check examples already submitted before send the request.**
