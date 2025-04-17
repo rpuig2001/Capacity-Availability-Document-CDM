@@ -1,4 +1,2 @@
 #--- Portugal [LPXX] ---#
 LPPT:*:IMOBA:200
-#--- Germany [EDXX] ---#
-EDDF:*:ANEKI:60
