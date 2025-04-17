@@ -25,10 +25,9 @@ volumes.geojson:
   - Lateral limits should be defined as Multipolygon (Like Vatspy data).
   - To check data by vertical limits, the following website is created (Data from the main branch is used): [AIRSPACES-MAP](https://cdm.vatsimspain.es/airspaces-map.html)
 sectors.txt
-  - Format `` <SECTOR Name>:<PEAK-CAPACITY>:<HOURLY-CAPACITY>:<Volumes> `` example: `` LECB-CCC:12:LECB-CCU1,LECB-CCU2,LECB-CCL1,LECB-CCL2 ``.
+  - Format `` <SECTOR Name>:<OCCURRENCE-CAPACITY>:<HOURLY-CAPACITY>:<Volumes> `` example: `` LECB-CCC:12:LECB-CCU1,LECB-CCU2,LECB-CCL1,LECB-CCL2 ``.
   - HOURLY-CAPACITY: capacity p/h of the sector.
-  - PEAK-CAPACITY: capacity is the "maximum simultaneous acft for each airspace" known as "Peak". If we don't have this information we can do: ( `` max acft per hour `` x `` average airspace time `` ) / `` 60 ``.
-    - Example: max capacity 30 p/h, average airspace time 15min (meaning aircrafts stay an average of 15min in the airspace): (30x15)/60 = 7.
+  - OCCURRENCE-CAPACITY: capacity is the "maximum simultaneous acft each minute for each airspace" known as "Occurrance".
   - To "disable" airspaces, it is possible by setting capcity `` 999 ``.
 
 procedures.txt
