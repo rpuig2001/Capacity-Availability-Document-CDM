@@ -41,8 +41,8 @@ procedures.txt
 
 profile_restrictions.txt
   - Format ``<ICAO_DEP>:<ICAO_DEST>:<WPT>:<FL>`` example: ``LPPT,LPFR:*:IMOBA:200``
-  - ICAO_DEP: list of dep airpors, "*" for all dep airports (Ex. LPPT,LPFR)
-  - ICAO_DEST: list of dest airports, "*" for all dest airports (Ex. LEBL)
+  - ICAO_DEP: dep airport, "*" for all dep airports (Ex. LPPT).
+  - ICAO_DEST: dest airport, "*" for all dest airports (Ex. LEBL).
   - WPT: Waypoint to be level at.
   - FL: numeric value indicating the FL (Ex. 200).
 
