@@ -39,5 +39,14 @@ procedures.txt
     - If pilot does not file a SID/STAR, the first in the list is chosen (order is by given in letters).
   - If any can be selected, then direct path will be created.
 
-  
-  **Please, check examples already submitted before send the request.**
+profile_restrictions.txt
+  - Format ``<ICAO_DEP>:<ICAO_DEST>:<WPT>:<FL>`` example: ``LPPT,LPFR:*:IMOBA:200``
+  - ICAO_DEP: list of dep airpors, "*" for all dep airports (Ex. LPPT,LPFR)
+  - ICAO_DEST: list of dest airports, "*" for all dest airports (Ex. LEBL)
+  - WPT: Waypoint to be level at.
+  - FL: numeric value indicating the FL (Ex. 200).
+
+  Remark: it will only be respected, if RFL is at or above.
+  Remark: This will override SID/STAR ALT restrictions.
+
+  **Please, check already submitted examples before send the request.**
