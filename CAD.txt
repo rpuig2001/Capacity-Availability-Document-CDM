@@ -115,7 +115,7 @@ LWSK,20
 #--- ENXX ---#
 URL,https://adbj.no/cdm/CAD.txt
 #--- EPXX ---#
-URL,https://cdm.plvacc.pl/acdm_plugin/CAD_EPWW.txt
+URL,https://plvacc.pl/cdm/acdm_plugin/CAD_EPWW.txt
 #--- LYXX ---#
 LYBE,15
 LYPG,6
