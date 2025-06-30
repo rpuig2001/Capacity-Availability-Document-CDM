@@ -203,3 +203,10 @@ LY-ALL:999:999:LYBA
 LW-ALL:999:999:LWSS
 LA-ALL:999:999:LAAA
 LZ-ALL:999:999:LZBB
+VH-TRK:999:999:East Arrivals (Upper)
+VH-TRE:999:999:East (Upper)
+VH-TRC:999:999:Central (Upper)
+VH-TRS:999:999:South (Upper)
+VH-TRW:999:999:West (Upper)
+VH-TRD:999:999:West DULOP (Upper)
+VH-TRV:999:999:West Departures (Upper)
