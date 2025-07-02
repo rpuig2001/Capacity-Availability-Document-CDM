@@ -203,10 +203,10 @@ LY-ALL:999:999:LYBA
 LW-ALL:999:999:LWSS
 LA-ALL:999:999:LAAA
 LZ-ALL:999:999:LZBB
-VH-TRK:999:999:VHHK East Arrivals-Upper/1,VHHK East Arrivals-Upper/2
-VH-TRE:999:999:VHHK East-Upper/1,VHHK East-Upper/2
-VH-TRC:999:999:VHHK Central-Upper/1,VHHK Central-Upper/2
-VH-TRS:999:999:VHHK South-Upper/1,VHHK South-Upper/2
-VH-TRW:999:999:VHHK West-Upper/1,VHHK West-Upper/2
-VH-TRD:999:999:VHHK West DULOP-Upper/1,VHHK West DULOP-Upper/2
-VH-TRV:999:999:VHHK West Departures-Upper/1,VHHK West Departures-Upper/2
+VH-TRK:999:999:VHHK-East-Arrivals-Upper/1,VHHK-East-Arrivals-Upper/2
+VH-TRE:999:999:VHHK-East-Upper/1,VHHK-East-Upper/2
+VH-TRC:999:999:VHHK-Central-Upper/1,VHHK-Central-Upper/2
+VH-TRS:999:999:VHHK-South-Upper/1,VHHK-South-Upper/2
+VH-TRW:999:999:VHHK-West-Upper/1,VHHK-West-Upper/2
+VH-TRD:999:999:VHHK-West-DULOP-Upper/1,VHHK-West-DULOP-Upper/2
+VH-TRV:999:999:VHHK-West-Departures-Upper/1,VHHK-West-Departures-Upper/2
