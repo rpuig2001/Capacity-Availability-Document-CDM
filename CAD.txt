@@ -55,23 +55,7 @@ EINN,20
 #--- LLXX ---#
 LLBG,18
 #--- LIXX ---#
-LIBD,11
-LICC,12
-LICJ,11
-LIEE,7
-LIMC,39
-LIME,16
-LIMF,14
-LIML,20
-LIPE,13
-LIPH,8
-LIPX,16
-LIPZ,17
-LIRA,15
-LIRF,54
-LIRN,15
-LIRP,10
-LIRQ,10
+URL,https://raw.githubusercontent.com/vatsim-italy/CDM/refs/heads/main/cad.txt
 #--- ESXX ---#
 ESSA,30
 ESSB,20
