@@ -4,7 +4,7 @@ URL,https://archivos.vatsimspain.es/Operaciones/Plugins/CDM_data/CAD_Spain.txt
 #--- Portugal [LPXX] ---#
 URL,https://raw.githubusercontent.com/pinatacolada/lppc-atfm/main/CAD_Portugal.txt
 #--- EKXX ---#
-EKCH,48
+EKCH,40
 EKBI,20
 EKYT,20
 EKRK,20
