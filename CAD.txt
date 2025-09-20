@@ -8,52 +8,8 @@ EKCH,40
 EKBI,20
 EKYT,20
 EKRK,20
-#--- EDXX ---#
-EDDB,50
-EDDC,20
-EDDE,9
-EDDF,60
-EDDG,20
-EDDH,31
-EDDK,31
-EDDL,33
-EDDM,58
-EDDN,20
-EDDP,28
-EDDR,12
-EDDS,35
-EDDV,40
-EDDW,18
-EDJA,21
-EDSB,3
-#--- LGXX ---#
-LGAV,28
-LGIR,10
-LGKF,3
-LGKL,2
-LGKO,6
-LGKP,2
-LGKR,8
-LGLM,12
-LGMK,5
-LGPZ,3
-LGRP,12
-LGRX,2
-LGSA,5
-LGSK,4
-LGSM,4
-LGSR,6
-LGST,2
-LGTS,12
-LGZA,5
 #--- LHXX ---#
 URL,https://ops.vacchun.hu/cdm/CAD.txt
-#--- EIXX ---#
-EICK,12
-EIDW,30
-EINN,20
-#--- LLXX ---#
-LLBG,18
 #--- LIXX ---#
 URL,https://raw.githubusercontent.com/vatsim-italy/CDM/refs/heads/main/cad.txt
 #--- ESXX ---#
@@ -72,105 +28,11 @@ ESNU,17
 ESSV,17
 #--- LSXX ---#
 URL,https://cdm.vacc.ch/CAD.txt
-#--- LTXX ---#
-LTAC,22
-LTAI,30
-LTBA,5
-LTBJ,25
-LTBS,12
-LTFJ,24
-LTFM,60
-#--- UKXX ---#
-UKBB,48
-#--- EVXX ---#
-EVRA,29
-#--- EYXX ---#
-EYVI,20
-#--- ELXX ---#
-ELLX,20
-#--- LMXX ---#
-LMML,15
-#--- EHXX ---#
-EHAM,68
-EHBK,20
-EHRD,10
-#--- LWXX ---#
-LWSK,20
 #--- ENXX ---#
 URL,https://adbj.no/cdm/CAD.txt
 #--- EPXX ---#
 URL,https://plvacc.pl/cdm/acdm_plugin/CAD_EPWW.txt
-#--- LYXX ---#
-LYBE,15
-LYPG,6
-#--- LZXX ---#
-LZIB,20
-#--- LJXX ---#
-LJLJ,10
 #--- EGXX ---#
 URL,https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/UK/Data/Plugin/CDM/CAD.txt
-#--- EBXX ---#
-EBBR,48
-#--- LQXX ---#
-LQSA,7
-#--- LBXX ---#
-LBSF,11
-#--- LCXX ---#
-LCLK,12
-LCPH,6
-#--- LDXX ---#
-LDDU,9
-LDPL,6
-LDRI,6
-LDSP,8
-LDZA,10
-#--- LKXX ---#
-LKPR,33
-#--- EEXX ---#
-EETN,10
-#--- EFXX ---#
-EFHK,48
-#--- LFXX ---#
-LFBD,12
-LFBH,4
-LFBO,23
-LFBZ,4
-LFJL,12
-LFKB,7
-LFKC,4
-LFKF,4
-LFKJ,6
-LFLB,4
-LFLL,38
-LFLP,2
-LFMD,5
-LFML,20
-LFMN,30
-LFMV,5
-LFOB,10
-LFPB,15
-LFPG,73
-LFPN,6
-LFPO,35
-#--- UGXX ---#
-UGTB,40
-UBBB,20
-#--- LOWW ---#
-LOWI,12
-LOWS,20
-LOWW,48
-#--- LAXX ---#
-LATI,13
-#--- LUXX ---#
-LUKK,18
-#--- GMXX ---#
-GMMX,10
-GMMN,18
-#--- HEXX ---#
-HECA,45
-HEGN,30
-HESH,25
-HEMA,12
-HELX,12
 #--- VHHK ---#
 VHHH,34
