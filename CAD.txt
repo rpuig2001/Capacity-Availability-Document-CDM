@@ -38,3 +38,6 @@ URL,https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/UK/Data/
 VHHH,34
 #--- WSJC ---#
 URL,https://raw.githubusercontent.com/VATSIM-Singapore/CDM/refs/heads/main/CAD.txt
+##--- South Africa [FACA & FAJA] ---##
+FACT,24
+FAOR,30
