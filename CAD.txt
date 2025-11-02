@@ -35,7 +35,7 @@ URL,https://plvacc.pl/cdm/acdm_plugin/CAD_EPWW.txt
 #--- EGXX ---#
 URL,https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/UK/Data/Plugin/CDM/CAD.txt
 #--- VHHK ---#
-VHHH,34
+VHHH,33
 #--- WSJC ---#
 URL,https://raw.githubusercontent.com/VATSIM-Singapore/CDM/refs/heads/main/CAD.txt
 #--- South Africa [FACA & FAJA] ---#
