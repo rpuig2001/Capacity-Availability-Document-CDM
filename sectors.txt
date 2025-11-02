@@ -331,6 +331,13 @@ VH-TRS:999:999:VHHK-South-Upper/1,VHHK-South-Upper/2
 VH-TRW:999:999:VHHK-West-Upper/1,VHHK-West-Upper/2
 VH-TRD:999:999:VHHK-West-DULOP-Upper/1,VHHK-West-DULOP-Upper/2
 VH-TRV:999:999:VHHK-West-Departures-Upper/1,VHHK-West-Departures-Upper/2
+VH-TR:999:999:VHHK-East-Arrivals-Upper/1,VHHK-East-Arrivals-Upper/2,VHHK-East-Upper/1,VHHK-East-Upper/2,VHHK-Central-Upper/1,VHHK-Central-Upper/2,VHHK-South-Upper/1,VHHK-South-Upper/2,VHHK-West-Upper/1,VHHK-West-Upper/2,VHHK-West-DULOP-Upper/1,VHHK-West-DULOP-Upper/2,VHHK-West-Departures-Upper/1,VHHK-West-Departures-Upper/2
+VH-TME:999:999:Terminal Radar East (TME)
+VH-TDE:999:999:Terminal Departures East (TDE)
+VH-TMS:999:999:Terminal Radar South (TMS)
+VH-TDC:999:999:Terminal Departures Central (TDC)
+VH-TMW:999:999:Terminal Radar West (TMW)
+VH-TMC:999:999:Terminal Radar East (TME),Terminal Departures East (TDE),Terminal Radar South (TMS),Terminal Departures Central (TDC),Terminal Radar West (TMW)
 CT-E:999:999:CT-ACC-East
 CT-W:999:999:CT-ACC-West
 CT-ALL:999:999:CT-ACC-West,CT-ACC-East
