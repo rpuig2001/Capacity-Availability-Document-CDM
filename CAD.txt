@@ -28,3 +28,7 @@ VHHH,34
 URL,https://raw.githubusercontent.com/VATSIM-Singapore/CDM/refs/heads/main/CAD.txt
 #--- South Africa [FACA & FAJA] ---#
 URL,https://raw.githubusercontent.com/VATSIM-SSA/sectorfile-fasa/refs/heads/main/Plugins/CDM/CAD.txt
+#--- EIXX ---#
+EIDW,52
+EICK,20
+EINN,20
