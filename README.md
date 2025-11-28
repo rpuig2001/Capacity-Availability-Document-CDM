@@ -27,7 +27,7 @@ volumes.geojson:
 sectors.txt
   - Format `` <SECTOR Name>:<OCCURRENCE-CAPACITY>:<HOURLY-CAPACITY>:<Volumes> `` example: `` LECB-CCC:12:LECB-CCU1,LECB-CCU2,LECB-CCL1,LECB-CCL2 ``.
   - HOURLY-CAPACITY: capacity p/h of the sector.
-  - OCCURRENCE-CAPACITY: capacity is the "maximum simultaneous acft each minute for each airspace" known as "Occurrance".
+  - OCCUPANCY-CAPACITY: capacity is the "maximum simultaneous acft each minute for each airspace" known as "Occupancy" or "Peak".
   - To "disable" airspaces, it is possible by setting capcity `` 999 ``.
 
 procedures.txt
