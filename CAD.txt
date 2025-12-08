@@ -5,9 +5,11 @@ URL,https://archivos.vatsimspain.es/Operaciones/Plugins/CDM_data/CAD_Spain.txt
 URL,https://raw.githubusercontent.com/pinatacolada/lppc-atfm/main/CAD_Portugal.txt
 #--- EKXX ---#
 EKCH,40
-EKBI,20
-EKYT,20
-EKRK,20
+EKBI,15
+EKYT,6
+EKRK,6
+EKAH,6
+EKKA,6
 #--- LHXX ---#
 URL,https://ops.vacchun.hu/cdm/CAD.txt
 #--- LIXX ---#
