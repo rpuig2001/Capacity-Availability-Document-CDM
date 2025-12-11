@@ -17,7 +17,7 @@ URL,https://raw.githubusercontent.com/vatsim-italy/CDM/refs/heads/main/cad.txt
 #--- ESXX ---#
 URL,https://raw.githubusercontent.com/Vatsim-Scandinavia/ESAA-Sectorfile/refs/heads/main/OTHER/CAD.txt
 #--- LSXX ---#
-URL,https://cdm.vacc.ch/CAD.txt
+URL,https://es.vacc.ch/cdm/CAD.txt
 #--- ENXX ---#
 URL,https://adbj.no/cdm/CAD.txt
 #--- EPXX ---#
