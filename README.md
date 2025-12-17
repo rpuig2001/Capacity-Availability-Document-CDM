@@ -24,7 +24,7 @@ volumes.geojson:
   - Lateral limits should be defined as Multipolygon (Like Vatspy data).
   - To check data by vertical limits, the following website is created (Data from the main branch is used): [AIRSPACES-MAP](https://cdm.vatsimspain.es/airspaces-map.html)
 
-sectors.txt
+sectors.txt (not used anymore)
   - Format `` <SECTOR Name>:<OCCURRENCE-CAPACITY>:<HOURLY-CAPACITY>:<Volumes> `` example: `` LECB-CCC:12:LECB-CCU1,LECB-CCU2,LECB-CCL1,LECB-CCL2 ``.
   - HOURLY-CAPACITY: capacity p/h of the sector.
   - OCCUPANCY-CAPACITY: capacity is the "maximum simultaneous acft each minute for each airspace" known as "Occupancy" or "Peak".
