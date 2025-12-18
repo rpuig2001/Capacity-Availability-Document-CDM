@@ -23,6 +23,7 @@ volumes.geojson:
   - MinFL, MaxFL and capacity are a must to have correctly defined airspaces.
   - Lateral limits should be defined as Multipolygon (Like Vatspy data).
   - To check data by vertical limits, the following website is created (Data from the main branch is used): [AIRSPACES-MAP](https://cdm.vatsimspain.es/airspaces-map.html)
+  - ID must be UPPERCASE.
 
 sectors.txt (not used anymore)
   - Format `` <SECTOR Name>:<OCCURRENCE-CAPACITY>:<HOURLY-CAPACITY>:<Volumes> `` example: `` LECB-CCC:12:LECB-CCU1,LECB-CCU2,LECB-CCL1,LECB-CCL2 ``.
