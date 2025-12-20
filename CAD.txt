@@ -18,6 +18,8 @@ URL,https://raw.githubusercontent.com/vatsim-italy/CDM/refs/heads/main/cad.txt
 URL,https://raw.githubusercontent.com/Vatsim-Scandinavia/ESAA-Sectorfile/refs/heads/main/OTHER/CAD.txt
 #--- LRBB ---#
 URL,https://raw.githubusercontent.com/tgpetrica/topskylrbb/refs/heads/main/LRBB/Plugins/CDM/CAD.txt
+#--- LBSR ---#
+URL,https://raw.githubusercontent.com/andreitzenov/LBSR-data/refs/heads/main/CAD.txt
 #--- LSXX ---#
 URL,https://es.vacc.ch/cdm/CAD.txt
 #--- ENXX ---#
