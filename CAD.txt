@@ -3,6 +3,8 @@
 URL,https://archivos.vatsimspain.es/Operaciones/Plugins/CDM_data/CAD_Spain.txt
 #--- Portugal [LPXX] ---#
 URL,https://raw.githubusercontent.com/pinatacolada/lppc-atfm/main/CAD_Portugal.txt
+#--- EDXX ---#
+URL,https://raw.githubusercontent.com/VATGER-Nav/EDXX-CAD/refs/heads/main/CAD.txt
 #--- EKXX ---#
 EKCH,40
 EKBI,15
