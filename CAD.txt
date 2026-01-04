@@ -34,8 +34,12 @@ URL,https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/UK/Data/
 URL,https://raw.githubusercontent.com/vatsimhk/CDM/refs/heads/main/cad.txt
 #--- WSJC ---#
 URL,https://raw.githubusercontent.com/VATSIM-Singapore/CDM/refs/heads/main/CAD.txt
-#--- South Africa [FACA & FAJA] ---#
+#--- VATSSA South Africa [FACA & FAJA] ---#
 URL,https://raw.githubusercontent.com/VATSIM-SSA/sectorfile-fasa/refs/heads/main/Plugins/CDM/CAD.txt
+#--- VATSSA Nairobi [HKNA] ---#
+URL,https://raw.githubusercontent.com/VATSIM-SSA/sectorfile-hkna/refs/heads/main/Plugins/CDM/CAD.txt
+#--- VATSSA Sal [GVSC] ---#
+URL,https://raw.githubusercontent.com/VATSIM-SSA/sectorfile-gvsc/refs/heads/main/Plugins/CDM/CAD.txt
 #--- EIXX ---#
 EIDW,52
 EICK,20
