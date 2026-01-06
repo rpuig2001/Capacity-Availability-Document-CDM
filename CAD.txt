@@ -7,11 +7,12 @@ URL,https://raw.githubusercontent.com/pinatacolada/lppc-atfm/main/CAD_Portugal.t
 URL,https://raw.githubusercontent.com/VATGER-Nav/EDXX-CAD/refs/heads/main/CAD.txt
 #--- EKXX ---#
 EKCH,40
-EKBI,15
-EKYT,6
-EKRK,6
-EKAH,6
-EKKA,6
+EKBI,20
+EKYT,15
+EKRK,15
+EKAH,15
+EKKA,15
+EKSP,15
 #--- LHXX ---#
 URL,https://ops.vacchun.hu/cdm/CAD.txt
 #--- LIXX ---#
