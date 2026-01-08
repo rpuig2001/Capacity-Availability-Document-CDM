@@ -41,3 +41,5 @@ URL,https://raw.githubusercontent.com/VATSIM-SSA/sectorfile-fasa/refs/heads/main
 EIDW,52
 EICK,20
 EINN,20
+#--- OMXX, OTXX, OOXX ---#
+URL,https://raw.githubusercontent.com/Arabian-vACC/CDM/refs/heads/main/cad.txt
