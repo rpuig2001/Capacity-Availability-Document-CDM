@@ -49,3 +49,7 @@ EINN,20
 URL,https://raw.githubusercontent.com/Arabian-vACC/CDM/refs/heads/main/cad.txt
 #--- LOVV ---#
 URL,https://design.vacc-austria.org/events/CDM/CAD.txt
+#--- LZBB ---#
+URL,https://vacc-slovakia.lima-city.at/CDM_plugin/cad.txt
+#--- EYVL ---#
+URL,https://vacc-lithuania.lima-city.at/CDM/cad.txt
