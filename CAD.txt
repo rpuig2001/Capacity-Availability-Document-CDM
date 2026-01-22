@@ -53,3 +53,5 @@ URL,https://design.vacc-austria.org/events/CDM/CAD.txt
 URL,https://vacc-slovakia.lima-city.at/CDM_plugin/cad.txt
 #--- EYVL ---#
 URL,https://vacc-lithuania.lima-city.at/CDM/cad.txt
+#--- EBBU ---#
+URL,https://raw.githubusercontent.com/NichoAir/belux-cdm/refs/heads/main/capacity/cad.txt
