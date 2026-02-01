@@ -41,6 +41,8 @@ URL,https://raw.githubusercontent.com/VATSIM-SSA/sectorfile-fasa/refs/heads/main
 URL,https://raw.githubusercontent.com/VATSIM-SSA/sectorfile-hkna/refs/heads/main/Plugins/CDM/CAD.txt
 #--- VATSSA Sal [GVSC] ---#
 URL,https://raw.githubusercontent.com/VATSIM-SSA/sectorfile-gvsc/refs/heads/main/Plugins/CDM/CAD.txt
+#--- VATSSA Luanda [FNAN] ---#
+URL,https://raw.githubusercontent.com/VATSIM-SSA/sectorfile-fnan/refs/heads/main/Plugins/CDM/CAD.txt
 #--- EIXX ---#
 EIDW,52
 EICK,20
