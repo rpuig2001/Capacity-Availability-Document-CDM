@@ -47,6 +47,8 @@ EICK,20
 EINN,20
 #--- OMXX, OTXX, OOXX ---#
 URL,https://raw.githubusercontent.com/Arabian-vACC/CDM/refs/heads/main/cad.txt
+#--- OBBB ---#
+URL,https://raw.githubusercontent.com/khaleej-vacc/Khaleej-Sector-File-OBBB/refs/heads/main/OBBB/Plugins/CDM/CAD.txt
 #--- LOVV ---#
 URL,https://design.vacc-austria.org/events/CDM/CAD.txt
 #--- LZBB ---#
