@@ -26,7 +26,7 @@ URL,https://raw.githubusercontent.com/andreitzenov/LBSR-data/refs/heads/main/CAD
 #--- LSXX ---#
 URL,https://es.vacc.ch/cdm/CAD.txt
 #--- ENXX ---#
-URL,https://adbj.no/cdm/CAD.txt
+URL,https://cdm.adbj.no/CAD.txt
 #--- EPXX ---#
 URL,https://plvacc.pl/cdm/acdm_plugin/CAD_EPWW.txt
 #--- EGXX ---#
