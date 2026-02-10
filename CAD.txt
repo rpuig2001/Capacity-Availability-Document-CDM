@@ -51,6 +51,8 @@ EINN,20
 URL,https://raw.githubusercontent.com/Arabian-vACC/CDM/refs/heads/main/cad.txt
 #--- OBBB ---#
 URL,https://raw.githubusercontent.com/khaleej-vacc/Khaleej-Sector-File-OBBB/refs/heads/main/OBBB/Plugins/CDM/CAD.txt
+#--- OKAC ---#
+URL,https://raw.githubusercontent.com/khaleej-vacc/Khaleej-Sector-File-OKAC/refs/heads/main/OKAC/Plugins/CDM/CAD.txt
 #--- LOVV ---#
 URL,https://design.vacc-austria.org/events/CDM/CAD.txt
 #--- LZBB ---#
