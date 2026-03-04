@@ -3,7 +3,7 @@ import path from "node:path";
 import fg from "fast-glob";
 
 const INPUT_ROOT = "data";
-const OUT_DIR = "global/all";
+const OUT_DIR = "global/";
 
 const PROCEDURES = "procedures.txt";
 const PROFILE_RESTRICTIONS = "profile_restrictions.txt";

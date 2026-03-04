@@ -36,7 +36,7 @@ jobs:
       - name: Install deps
         run: npm ci
 
-      - name: Generate global/all files
+      - name: Generate global/ files
         run: node scripts/build-global-all.mjs
 
       - name: Commit and push (if changed)
@@ -44,12 +44,12 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add global/all/procedures.txt global/all/profile_restrictions.txt global/all/volumes.geojson
+          git add global/procedures.txt global/profile_restrictions.txt global/volumes.geojson
 
           if git diff --cached --quiet; then
             echo "No changes to commit."
             exit 0
           fi
 
-          git commit -m "chore: regenerate global/all aggregates"
+          git commit -m "chore: regenerate global/ aggregates"
           git push
