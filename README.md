@@ -4,32 +4,26 @@ More information about the CDM can be found on the [CDM WEBSITE](https://vats.im
 
 <br>
 
-# How Do I Submit My Request?
+# How Do I Submit or update My Data?
 
-Create an Issue with your .txt file URL.
+All contributions from vACC staff are welcome!
+
+1. Fork the repository.
+2. Make your changes in your FIR/vACC directory (or create it if it doesn't exist).
+3. Validate your changes using the provided JSON schemas or the vacs-data tool.
+4. Submit a Pull Request.
+   
+  **Please, check already submitted examples before send the request.**
 
 <br>
 
 # Which Is The Format?
-CAD.txt:
-  - Format `` [ICAO AIRPORT],[RATE/H] `` ex. `` LEPA,33 ``.
-  - Each line has an airport with it's value.
-  - It is possible to create groups of airports with a wildcard on the last 2 digits of the ICAO. ex. (All Germany) -> `` ED**,10 ``.
-  - Use `` # `` as the first character for a comment.
-  - Avoid empty lines.
-
 volumes.geojson:
   - Here volumes are included to later use them as sectors. To pass the vatglasses data into the required form, it is possible by using this converter: [VATGLASSES-CDM-CONVERTER](https://cdm.vatsimspain.es/vatglasses-to-cdm)
   - MinFL, MaxFL and capacity are a must to have correctly defined airspaces.
   - Lateral limits should be defined as Multipolygon (Like Vatspy data).
   - To check data by vertical limits, the following website is created (Data from the main branch is used): [AIRSPACES-MAP](https://cdm.vatsimspain.es/airspaces-map.html)
   - ID must be UPPERCASE.
-
-sectors.txt (not used anymore)
-  - Format `` <SECTOR Name>:<OCCURRENCE-CAPACITY>:<HOURLY-CAPACITY>:<Volumes> `` example: `` LECB-CCC:12:LECB-CCU1,LECB-CCU2,LECB-CCL1,LECB-CCL2 ``.
-  - HOURLY-CAPACITY: capacity p/h of the sector.
-  - OCCUPANCY-CAPACITY: capacity is the "maximum simultaneous acft each minute for each airspace" known as "Occupancy" or "Peak".
-  - To "disable" airspaces, it is possible by setting capcity `` 999 ``.
 
 procedures.txt
   - Format ``<AIRPORT>:SID:<letters>:STAR:<letters>`` example: ``LEBL:SID:Q:STAR:W,Z``
@@ -49,5 +43,3 @@ profile_restrictions.txt
 
   Remark: it will only be respected, if RFL is at or above.
   Remark: This will override SID/STAR ALT restrictions.
-
-  **Please, check already submitted examples before send the request.**
