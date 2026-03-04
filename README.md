@@ -1,6 +1,6 @@
 # CAD - Capacity Availability Document for the CDM Plugin
 
-More information about the CDM can be found on the [CDM WEBSITE](https://vats.im/cdm)
+More information about the CDM And ATFCM projects can be found on the [WEBSITE](https://vats.im/cdm)
 
 <br>
 
