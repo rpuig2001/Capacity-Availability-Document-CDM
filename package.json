@@ -1,0 +1,23 @@
+{
+  "name": "capacity-availability-document-cdm",
+  "version": "1.0.0",
+  "description": "More information about the CDM can be found on the [CDM WEBSITE](https://vats.im/cdm)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rpuig2001/Capacity-Availability-Document-CDM.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rpuig2001/Capacity-Availability-Document-CDM/issues"
+  },
+  "homepage": "https://github.com/rpuig2001/Capacity-Availability-Document-CDM#readme",
+  "devDependencies": {
+    "fast-glob": "^3.3.3"
+  }
+}
