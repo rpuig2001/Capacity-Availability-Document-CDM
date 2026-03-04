@@ -51,5 +51,5 @@ jobs:
             exit 0
           fi
 
-          git commit -m "chore: regenerate global/ aggregates"
+          git commit -m "updated global files"
           git push
