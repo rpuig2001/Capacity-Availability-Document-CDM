@@ -9,7 +9,7 @@ More information about the CDM And ATFCM projects can be found on the [WEBSITE](
 All contributions from vACC staff are welcome!
 
 1. Fork the repository.
-2. Make your changes in your FIR/vACC directory (or create it if it doesn't exist).
+2. Make your changes in data/<your FIR/vACC directory> (or create it if it doesn't exist).
 3. Validate your changes using the provided JSON schemas or the vacs-data tool.
 4. Submit a Pull Request.
    
