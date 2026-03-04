@@ -3,74 +3,72 @@ import path from "node:path";
 import fg from "fast-glob";
 
 const INPUT_ROOT = "data";
-const OUT_DIR = "global/";
+const OUT_DIR = "global";
 
 const PROCEDURES = "procedures.txt";
 const PROFILE_RESTRICTIONS = "profile_restrictions.txt";
 const VOLUMES = "volumes.geojson";
 
-// Output: one GeoJSON Feature per line (NDJSON/GeoJSONSeq-style)
+// Output is VALID GeoJSON FeatureCollection, formatted so each feature is on its own line
 const VOLUMES_OUT = "volumes.geojson";
 
-async function exists(p) {
+async function tryReadText(filePath) {
   try {
-    await fs.access(p);
-    return true;
-  } catch {
-    return false;
+    return await fs.readFile(filePath, "utf8");
+  } catch (e) {
+    if (e && (e.code === "ENOENT" || e.code === "ENOTDIR")) return null;
+    throw e;
   }
 }
 
-// sector folders = first-level under data/
 const sectorDirs = (await fg(`${INPUT_ROOT}/*`, { onlyDirectories: true })).sort();
 
-const sectors = [];
-for (const dir of sectorDirs) {
-  const ok = await Promise.all([
-    exists(path.join(dir, PROCEDURES)),
-    exists(path.join(dir, PROFILE_RESTRICTIONS)),
-    exists(path.join(dir, VOLUMES)),
-  ]);
-  if (ok.every(Boolean)) sectors.push(dir);
-}
-
-if (sectors.length === 0) {
-  console.error(
-    `No sector folders found under ${INPUT_ROOT}/ containing ${PROCEDURES}, ${PROFILE_RESTRICTIONS}, ${VOLUMES}`
-  );
+if (sectorDirs.length === 0) {
+  console.error(`No sector folders found under ${INPUT_ROOT}/`);
   process.exit(1);
 }
 
 await fs.mkdir(OUT_DIR, { recursive: true });
 
-// 1) TXT files: concatenate (no formatting required)
+// 1) TXT files: concatenate, skipping missing files
 for (const filename of [PROCEDURES, PROFILE_RESTRICTIONS]) {
   let out = "";
-  for (const sector of sectors) {
-    out += await fs.readFile(path.join(sector, filename), "utf8");
+
+  for (const sector of sectorDirs) {
+    const content = await tryReadText(path.join(sector, filename));
+    if (content == null) continue;
+
+    out += content;
     if (!out.endsWith("\n")) out += "\n";
   }
+
   await fs.writeFile(path.join(OUT_DIR, filename), out, "utf8");
-  console.log(`Wrote ${OUT_DIR}/${filename} from ${sectors.length} sectors`);
+  console.log(`Wrote ${OUT_DIR}/${filename}`);
 }
 
-// 2) volumes: each *input Feature* becomes one output line, unchanged (no added properties)
-const lines = [];
+// 2) volumes.geojson: valid FeatureCollection; each Feature on its own line, comma-separated
+const features = [];
 
-for (const sector of sectors) {
-  const raw = await fs.readFile(path.join(sector, VOLUMES), "utf8");
-  const gj = JSON.parse(raw);
+for (const sector of sectorDirs) {
+  const raw = await tryReadText(path.join(sector, VOLUMES));
+  if (raw == null) continue;
+
+  let gj;
+  try {
+    gj = JSON.parse(raw);
+  } catch (e) {
+    throw new Error(`Invalid JSON in ${sector}/${VOLUMES}: ${e.message}`);
+  }
 
   if (gj?.type === "FeatureCollection" && Array.isArray(gj.features)) {
     for (const feat of gj.features) {
-      if (feat?.type !== "Feature") continue;
-      lines.push(JSON.stringify(feat));
+      if (feat?.type === "Feature") features.push(feat);
     }
     continue;
   }
 
   if (gj?.type === "Feature") {
-    lines.push(JSON.stringify(gj));
+    features.push(gj);
     continue;
   }
 
@@ -79,5 +77,9 @@ for (const sector of sectors) {
   );
 }
 
-await fs.writeFile(path.join(OUT_DIR, VOLUMES_OUT), lines.join("\n") + "\n", "utf8");
-console.log(`Wrote ${OUT_DIR}/${VOLUMES_OUT} with ${lines.length} features (1 per line)`);
+const header = `{"type":"FeatureCollection","features":[\n`;
+const body = features.map((f) => JSON.stringify(f)).join(",\n"); // comma-separated, one per line
+const footer = `\n]}\n`;
+
+await fs.writeFile(path.join(OUT_DIR, VOLUMES_OUT), header + body + footer, "utf8");
+console.log(`Wrote ${OUT_DIR}/${VOLUMES_OUT} with ${features.length} features`);
