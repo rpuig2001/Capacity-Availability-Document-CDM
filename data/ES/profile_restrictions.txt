@@ -1,0 +1,5 @@
+#--- Sweden [ESAA] ---#
+*:ESSA:NILUG:160
+*:ESSA:ELTOK:130
+*:ESSA:HMR:130
+*:ESSA:XILAN:130
