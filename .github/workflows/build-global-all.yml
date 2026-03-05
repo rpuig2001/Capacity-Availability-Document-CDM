@@ -6,7 +6,7 @@ on:
     paths:
       - "data/**/procedures.txt"
       - "data/**/profile_restrictions.txt"
-      - "data/**/volumes.geojson"
+      - "data/**/airblocks.geojson"
       - "scripts/build-global-all.mjs"
       - "package.json"
       - "package-lock.json"
@@ -44,7 +44,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add global/procedures.txt global/profile_restrictions.txt global/volumes.geojson
+          git add global/procedures.txt global/profile_restrictions.txt global/airblocks.geojson
 
           if git diff --cached --quiet; then
             echo "No changes to commit."

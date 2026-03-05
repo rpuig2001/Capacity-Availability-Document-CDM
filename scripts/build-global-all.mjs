@@ -7,9 +7,9 @@ const OUT_DIR = "global";
 
 const PROCEDURES = "procedures.txt";
 const PROFILE_RESTRICTIONS = "profile_restrictions.txt";
-const VOLUMES = "volumes.geojson";
+const VOLUMES = "airblocks.geojson";
 
-const VOLUMES_OUT = "volumes.geojson";
+const VOLUMES_OUT = "airblocks.geojson";
 
 // Set these to whatever you require
 const GEOJSON_NAME = "CDM Airspace Data";
@@ -52,7 +52,7 @@ for (const filename of [PROCEDURES, PROFILE_RESTRICTIONS]) {
   console.log(`Wrote ${OUT_DIR}/${filename}`);
 }
 
-// 2) volumes.geojson: valid FeatureCollection with required top-level fields.
+// 2) airblocks.geojson: valid FeatureCollection with required top-level fields.
 // Each Feature on its own line, comma-separated.
 const features = [];
 let copiedName = null;
