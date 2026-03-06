@@ -10,6 +10,16 @@ on:
       - "scripts/build-global-all.mjs"
       - "package.json"
       - "package-lock.json"
+      
+  pull_request:
+    branches: [ main ]
+    paths:
+      - "data/**/procedures.txt"
+      - "data/**/profile_restrictions.txt"
+      - "data/**/airblocks.geojson"
+      - "scripts/build-global-all.mjs"
+      - "package.json"
+      - "package-lock.json"
 
 permissions:
   contents: write
@@ -20,6 +30,7 @@ concurrency:
 
 jobs:
   build:
+    if: github.repository == 'rpuig2001/vIFF-Capacity-Availability-Document'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
