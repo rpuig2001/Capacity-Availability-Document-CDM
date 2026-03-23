@@ -26,7 +26,7 @@ volumes.geojson:
   - ID must be UPPERCASE.
 
 procedures.txt
-  - Format ``<AIRPORT>:SID:<letters>:STAR:<letters>`` example: ``LEBL:SID:Q:STAR:W,Z``
+  - Format ``<AIRPORT>:SID:<letters or procedures name>:STAR:<letters or procedures name>`` example: ``LEBL:SID:SENIA%Q,LARPA%Q,T:STAR:BISBA%W,LESBA%W,Z``
     - AIRPORT: ICAO code.
     - letters: last letter of CID, set all the valid letters. Empty if all are valid.
   - The decision of which procedure to choose will be:
